@@ -126,7 +126,7 @@ console.log(isIsland, population, country, language);
 console.log(population / 2, population / 2 + 1, population > Finland, population < AverragePopulation)
 let description = country + ' is in ' + continent + ' , and its ' + population + ' million people speak ' + language;
 console.log(description);
-*/
+
 
 //////////////////////////////////
 //coding Challenge #1
@@ -146,3 +146,81 @@ markBMI = markMass / markHeights ** 2;
 johnBMI = johnMass / johnHeights ** 2;
 markHigherBMI = markBMI > johnBMI;
 console.log(markBMI, johnBMI, markHigherBMI);
+
+
+const firstName = 'Tawee';
+const job = 'Student';
+const birthYear = '1998';
+const year = 2022;
+const tawee = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + "!"
+console.log(tawee);
+
+const taweeNew = `I'm ${firstName}, a ${year - birthYear} years oke ${job}!`;
+console.log(taweeNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String wiht \n\
+multiple \n\
+lines')
+
+console.log(`String wiht
+multiple
+lines`);
+
+
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log(`Sarah can start driving license 🚗`);
+} else {
+    const yearLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearLeft} years 😊`)
+}
+
+const birthYear = 1998;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+
+
+//type conversion
+const inputyear = '1991';
+console.log(Number(inputyear), inputyear);
+console.log(Number(inputyear) + 10);
+
+console.log(Number('non'));
+console.log(typeof NaN);
+
+console.log(String(23), 23)
+
+// type coercion
+
+console.log('I am ' + 23 + ' Years Old')
+console.log('I am ' + 23 + ' Years Old')
+console.log('22' + '10' + 3)
+console.log('23' / '2')
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n)
+
+*/
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('non'));
+console.log(typeof({}));
+
+const money = 100;
+if (money) {
+    console.log("Don't spend it all 😁");
+} else {
+    console.log('You should det a job')
+}
